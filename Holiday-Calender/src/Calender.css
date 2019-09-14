@@ -1,0 +1,78 @@
+.main-Conatier{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    bottom: 20px;
+    right: 100px;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,0.9);
+}
+
+.holiday-text{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.upcoming-holiday-btn{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 0px 0px 10px;
+    height: 50px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.passed-holiday-btn{
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+    width: 500px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.upcoming-holiday-btn:hover{
+    background-color: gray;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+
+.passed-holiday-btn:hover{
+    background-color: gray;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+
+.date-container{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    margin-top:20px;
+    margin-left: 80px;
+    width: 1000px;  
+    height: 400px;
+    border-radius:10px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,0.9);
+    color: black;
+    max-height: 400px;
+}
+.date-container:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.scrollable{
+    max-height: 400px;
+    overflow: hidden;
+}
+.scrollable:hover{
+    overflow:auto;
+}
